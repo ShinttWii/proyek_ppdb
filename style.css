@@ -1,0 +1,86 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+    padding: 30px;
+}
+
+/* Form Container */
+form {
+    max-width: 600px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Judul Form */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* Input, Select, File */
+input[type="text"],
+input[type="date"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #f8fafc;
+    transition: 0.3s;
+}
+
+/* Fokus efek */
+input:focus,
+select:focus {
+    border-color: #3b82f6;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Tombol Daftar */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
